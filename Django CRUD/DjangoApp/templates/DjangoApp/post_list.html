@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Post List</title>
+</head>
+<body>
+    <h1>Post List</h1>
+    <ul>
+        {% for post in posts %}
+            <li>{{ post.title }} - {{ post.pub_date }}</li>
+        {% endfor %}
+    </ul>
+</body>
+</html>

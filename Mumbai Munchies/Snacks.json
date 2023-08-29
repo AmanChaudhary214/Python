@@ -1,0 +1,42 @@
+[
+    {
+        "name": "Pasta",
+        "price": 99.0,
+        "availability": false
+    },
+    {
+        "name": "Burger",
+        "price": 149.0,
+        "availability": false
+    },
+    {
+        "name": "Coke",
+        "price": 49.0,
+        "availability": true
+    },
+    {
+        "name": "Noodles",
+        "price": 199.0,
+        "availability": true
+    },
+    {
+        "name": "Pretzels",
+        "price": 1.0,
+        "availability": false
+    },
+    {
+        "name": "Popcorn",
+        "price": 2.0,
+        "availability": true
+    },
+    {
+        "name": "Pretzels",
+        "price": 1.0,
+        "availability": false
+    },
+    {
+        "name": "Popcorn",
+        "price": 2.0,
+        "availability": true
+    }
+]

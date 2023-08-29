@@ -1,0 +1,22 @@
+{% load static %}
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Zomato Chronicles: Add Dish</title>
+    <link rel="stylesheet" type="text/css" href="{% static 'css/styles.css' %}">
+</head>
+<body>
+    <div class="navbar">
+        <a href="{% url 'zomato:dish_list' %}">Menu</a>
+        <a href="{% url 'zomato:add_dish' %}">Add Dish</a>
+        <a href="{% url 'zomato:order_list' %}">Orders</a>
+        <a href="{% url 'zomato:place_order' %}">Place Order</a>
+    </div>
+    <h1>Add Dish</h1>
+    <form method="post">
+        {% csrf_token %}
+        {{ form.as_p }}
+        <button type="submit">Add Dish</button>
+    </form>
+</body>
+</html>
